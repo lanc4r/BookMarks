@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sss</title>
+</head>
+<body>
+
+
+	<script type="text/javascript">
+		
+		var time = 1506610396803
+
+		var date = new Date(time);
+		var year = date.getFullYear();
+		var month = date.getMonth()+1;
+		var day = date.getDate();
+
+		//alert(year+"+"+month+"+"+date);
+		//alert(typeof year);
+		if (month < 10){
+			month = "0" + month;
+		}
+
+		if (day < 10){
+			day = "0" + day;
+		}
+		alert(year+"-"+month+"-"+day);
+
+	</script>
+
+</body>
+</html>
